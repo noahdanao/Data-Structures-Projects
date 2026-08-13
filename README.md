@@ -2,7 +2,7 @@
 Various construction of data structures made from my data structures class. Examples include a Linked List, BST map, Hash map, and OSM. All constructed for a grade out of 100 and averaged above a 90% for all. 
 
 
-# CS 251: Data Structures & Algorithms
+# Data Structures & Algorithms
 
 A collection of core data structures, algorithms, and applications implemented in C++. This repository highlights custom memory management, efficient data organization, tree traversal, hashing techniques, and graph-based pathfinding algorithms.
 
