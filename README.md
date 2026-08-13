@@ -10,27 +10,27 @@ A collection of core data structures, algorithms, and applications implemented i
 
 ## 🚀 Projects Overview
 
-### 🔹 Project 1: Ciphers (`proj1-ciphers`)
+### 🔹 Project 1: Ciphers
 * **Focus:** Strings, Arrays, C++ Basics & Memory Layout
 * Implemented text-encoding and decoding routines (such as substitution and Caesar-style ciphers) to manipulate raw character streams and string manipulation patterns.
 
-### 🔹 Project 2: Lyrics Analyzer (`proj2-lyrics`)
+### 🔹 Project 2: Lyrics Analyzer
 * **Focus:** File I/O, Dynamic Arrays & Frequency Counting
 * Processed text sets to analyze word frequencies and build searching mechanisms across song lyric datasets.
 
-### 🔹 Project 3: Custom List Implementation (`proj3-lists`)
+### 🔹 Project 3: Custom List Implementation 
 * **Focus:** Dynamic Memory Allocation & Pointer Manipulation
 * Developed a custom linked list data structure with manual memory management (constructors, destructors, copy operations) ensuring zero memory leaks.
 
-### 🔹 Project 4: Binary Search Tree Map (`proj4-bstmap`)
+### 🔹 Project 4: Binary Search Tree Map
 * **Focus:** Trees, Self-Balancing Concepts & Recursion
 * Built a custom associative array (`BSTMap`) using a binary search tree layout. Features recursive insertion, lookup, traversal algorithms, and key-value pair management.
 
-### 🔹 Project 5: Hash Map (`proj5-hashmap`)
+### 🔹 Project 5: Hash Map
 * **Focus:** Hashing, Collision Resolution & Amortized $O(1)$ Operations
 * Designed a high-performance `HashMap` implementing custom hash functions and collision resolution strategies (chaining/open addressing) for efficient key-value lookups.
 
-### 🔹 Project 6: OpenStreetMap Navigator (`proj6-osm`)
+### 🔹 Project 6: OpenStreetMap Navigator
 * **Focus:** Graphs, Shortest Path Algorithms & Spatial Data
 * Implemented graph representations to model real-world map data from OpenStreetMap. Integrated **Dijkstra’s Algorithm** to compute optimal routes and shortest paths across street networks.
 
