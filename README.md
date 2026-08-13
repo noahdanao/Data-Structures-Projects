@@ -2,21 +2,11 @@
 Various construction of data structures made from my data structures class. Examples include a Linked List, BST map, Hash map, and OSM. All constructed for a grade out of 100 and averaged above a 90% for all. 
 
 
-# Data Structures & Algorithms
-
 A collection of core data structures, algorithms, and applications implemented in C++. This repository highlights custom memory management, efficient data organization, tree traversal, hashing techniques, and graph-based pathfinding algorithms.
 
 ---
 
 ## 🚀 Projects Overview
-
-### 🔹 Project 1: Ciphers
-* **Focus:** Strings, Arrays, C++ Basics & Memory Layout
-* Implemented text-encoding and decoding routines (such as substitution and Caesar-style ciphers) to manipulate raw character streams and string manipulation patterns.
-
-### 🔹 Project 2: Lyrics Analyzer
-* **Focus:** File I/O, Dynamic Arrays & Frequency Counting
-* Processed text sets to analyze word frequencies and build searching mechanisms across song lyric datasets.
 
 ### 🔹 Project 3: Custom List Implementation 
 * **Focus:** Dynamic Memory Allocation & Pointer Manipulation
