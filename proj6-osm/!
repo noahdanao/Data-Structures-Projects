@@ -1,0 +1,15 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v184)
+"   /Users/noahd/Downloads/CS251/proj6-osm/build
+"   Sorted by      name
+"   Sort sequence: [\/]$,*,\(\.bak\|\~\|\.o\|\.h\|\.info\|\.swp\|\.obj\)[*@]\=$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+application.o
+build_graph_tests.o
+dijkstra_tests.o
+dist.o
+graph_tests.o
+server.o

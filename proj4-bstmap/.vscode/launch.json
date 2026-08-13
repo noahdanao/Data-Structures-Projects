@@ -1,0 +1,60 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build bstmap_main",
+      "name": "Debug BST Main",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/bstmap_main",
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build bstmap_tests",
+      "name": "Debug BST Core",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/bstmap_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=BSTMapCore*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build bstmap_tests",
+      "name": "Debug BST Aug",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/bstmap_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=BSTMapAugmented*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build bstmap_tests",
+      "name": "Debug BST Erase",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/bstmap_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=BSTMapErase*",
+      ],
+    },
+  ],
+}

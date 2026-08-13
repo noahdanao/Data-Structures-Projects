@@ -1,0 +1,105 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_main",
+      "name": "Debug List Main",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_main",
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug LL Core",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=LinkedListCore*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug Vec Core",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=CircVectorCore*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug LL Aug",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=LinkedListAugmented*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug Vec Aug",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=CircVectorAugmented*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug LL Extras",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=LinkedListExtras*",
+      ],
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "build list_tests",
+      "name": "Debug Vec Extras",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASAN_OPTIONS": "abort_on_error=1:detect_leaks=0",
+      },
+      "program": "${workspaceFolder}/list_tests",
+      "args": [
+        "--gtest_color=yes",
+        "--gtest_filter=CircVectorExtras*",
+      ],
+    },
+  ],
+}
